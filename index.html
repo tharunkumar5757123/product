@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Catalog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #fffdfd;
+      border-radius: 10px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color:  white;
+      border-radius: 20px;
+      box-shadow:0px 0px 10px rgb(22, 22, 22,0.2);
+     
+    }
+    th, td {
+      padding: 15px;
+      border-bottom: 1px solid #e0dcdc;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #007BFF;
+      color: white;
+     
+    }
+    img {
+      max-width: 100px;
+      max-height: 100px;
+      object-fit: contain;
+    }
+    .price {
+      color: #007BFF;
+      font-weight: bold;
+    }
+    .discount {
+      color: green;
+    }
+    .category {
+      font-size: 14px;
+      color: #555;
+    }
+    .links{
+      display: flex;
+      width: auto;
+      height: 40px;
+      margin-bottom: 30px;
+      gap: 20;
+      text-align: center;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    a{
+      color: white;
+      border-radius: 10px;
+      width: 130px;
+      height: 30px;
+      padding-top: 10px;
+      text-decoration:none;
+      background-color: rgb(190, 158, 229);
+      box-shadow: 0px 0px 10px  rgba(108, 107, 108, 0.6);
+      font-weight: 700;
+    }
+    a:hover{
+      color: rgb(253, 83, 4);
+      background-color:darkcyan;
+      font-weight: 800;
+      font-style:Cursive;
+      margin-bottom: 14px;
+    }
+     a:active{
+      color: rgb(253, 83, 4);
+      background-color:rgb(248, 236, 4);
+      font-weight: 800;
+      font-style:Cursive;
+      margin-bottom: 14px;
+     }
+  </style>
+</head>
+<body>
+
+  <h1>Product Catalog</h1>
+  <div class="links">
+    <a href="index1.html">Headphones</a>
+    <a href="index2.html">Phones</a>
+    <a href="index3.html">Gamepad</a>
+    <a href="index4.html">Earphones</a>
+    <!-- <h1></h1>
+    <h1>Phones</h1>
+    <h1>Gamepad</h1>
+    <h1>Ear Earphones</h1> -->
+  </div>
+  <table>
+    <thead>
+      <tr class="color">
+        <th>Image</th>
+        <th>Name & Description</th>
+        <th>Price</th>
+        <th>Discount</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1692947383286-714WUJlhbLS._SL1500_.jpg" alt="Sony WH-1000XM3"></td>
+        <td><strong>Sony WH-1000XM3 Bluetooth Wireless Over Ear Headphones</strong><br>Digital noise cancelling: Industry leading Active Noise Cancellation (ANC)...</td>
+        <td class="price">$773</td>
+        <td class="discount">11% off</td>
+        <td class="category">audio</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1692255251854-xbox.jpg" alt="Xbox Controller"></td>
+        <td><strong>Microsoft Xbox X/S Wireless Controller Robot White</strong><br>Experience the modernized design of the Xbox wireless controller...</td>
+        <td class="price">$57</td>
+        <td class="discount">4% off</td>
+        <td class="category">gaming</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1692257709689-logitech heaphone.jpg" alt="Logitech G733"></td>
+        <td><strong>Logitech G733 Lightspeed Wireless Gaming Headset</strong><br>Total freedom with up to 20 m wireless range and LIGHTSPEED...</td>
+        <td class="price">$384</td>
+        <td class="discount">3% off</td>
+        <td class="category">gaming</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1692941008275-headphone3.jpg" alt="Sony WH-1000XM5"></td>
+        <td><strong>Sony WH-1000XM5 Wireless Industry Leading ANC Headphones</strong><br>Industry Leading noise cancellation-two processors control 8 microphones...</td>
+        <td class="price">$362</td>
+        <td class="discount">11% off</td>
+        <td class="category">audio</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691056487173-headphon2.jpg" alt="Urbanista Los Angeles"></td>
+        <td><strong>Urbanista Los Angeles - Solar Powered Wireless Headphones</strong><br>Welcome to the dawn of a new era with URBANISTA LOS ANGELES...</td>
+        <td class="price">$265</td>
+        <td class="discount">19% off</td>
+        <td class="category">audio</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691057474498-earphone.jpg" alt="Xiaomi Earphones"></td>
+        <td><strong>Xiaomi Wired in-Ear Earphones with Mic</strong><br>Ergonomically angled to fit perfectly in your ear canal...</td>
+        <td class="price">$5</td>
+        <td class="discount">–</td>
+        <td class="category">audio</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691057718636-headphone5.jpg" alt="boAt Rockerz 370"></td>
+        <td><strong>boAt Rockerz 370 On Ear Bluetooth Headphones</strong><br>Rockerz 370 come equipped with latest Bluetooth v5.0...</td>
+        <td class="price">$12</td>
+        <td class="discount">–</td>
+        <td class="category">audio</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691073671025-galaxy S21 FE.jpg" alt="Samsung Galaxy S21 FE"></td>
+        <td><strong>Samsung Galaxy S21 FE 5G (Lavender, 8GB, 128GB)</strong><br>Pro-grade Camera with AI Single Take, Portrait Mode...</td>
+        <td class="price">$434</td>
+        <td class="discount">9% off</td>
+        <td class="category">mobile</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1694100438525-51Prg4Smx-L._SL1500_.jpg" alt="Amkette EvoFox Gamepad"></td>
+        <td><strong>Amkette EvoFox Elite Ops Wireless Gamepad</strong><br>The EvoFox Elite Ops Wireless Gamepad with Type C Charging...</td>
+        <td class="price">$18</td>
+        <td class="discount">3% off</td>
+        <td class="category">gaming</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691074519203-galaxy S22 5G.jpg" alt="Samsung Galaxy S22"></td>
+        <td><strong>Samsung Galaxy S22 5G (Phantom White, 8GB, 128GB)</strong><br>Pro-grade Camera that lets you make your nights epic...</td>
+        <td class="price">$760</td>
+        <td class="discount">29% off</td>
+        <td class="category">mobile</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691074776147-galaxy S22 ultra 5G.jpg" alt="Samsung Galaxy S22 Ultra"></td>
+        <td><strong>Samsung Galaxy S22 Ultra 5G (Burgundy, 12GB, 256GB)</strong><br>The first Galaxy S with embedded S Pen. Write comfortably...</td>
+        <td class="price">$1147</td>
+        <td class="discount">29% off</td>
+        <td class="category">mobile</td>
+      </tr>
+      <tr>
+        <td><img src="https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691078463674-poco f1.jpg" alt="Poco F1"></td>
+        <td><strong>Poco by Xiaomi F1 Steel Blue, 6GB RAM, 64GB Storage</strong><br>12MP+5MP dual camera | 20MP front facing camera...</td>
+        <td class="price">$132</td>
+        <td class="discount">–</td>
+        <td class="category">mobile</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
